@@ -24,6 +24,30 @@ Syntax highlighting, code completions and hover help for new [Firestore security
 
 ![index hovers](./images/index-hovers.gif)
 
+# Building and Packaging
+
+To build and package this extension into a `.vsix` file:
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Compile TypeScript:**
+   ```bash
+   npm run compile
+   ```
+
+3. **Package the extension:**
+   ```bash
+   npm run package
+   ```
+
+This will create a `.vsix` file in the project root that can be installed in VS Code using:
+```bash
+code --install-extension vsfire-*.vsix
+```
+
 # Status
 
 See the [repository milestones](https://github.com/toba/vsfire/milestones) for issues I expect to resolve in coming releases.
