@@ -1,6 +1,4 @@
-[![Market Badge](https://vsmarketplacebadge.apphb.com/version/toba.vsfire.svg)](https://marketplace.visualstudio.com/items?itemName=toba.vsfire)
-[![Travis](https://travis-ci.org/toba/vsfire.svg?branch=master)](https://travis-ci.org/toba/vsfire#)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/toba.vsfire.svg)](https://marketplace.visualstudio.com/items?itemName=toba.vsfire)
+# Firestore Security Rules and Indexes Extension
 
 # Firestore Security Rules and Indexes
 

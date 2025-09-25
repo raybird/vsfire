@@ -26,9 +26,9 @@ export default class RuleCompletionProvider implements CompletionItemProvider {
       if (word == null || word == '') {
          return null;
       } else if (word.slice(-1) == '.') {
-         return members(word.slice(0, -1));
+         return members(word.slice(0, -1)).then(result => result || []);
       } else {
-         return directives(word);
+         return directives(word).then(result => result || []);
       }
    }
 }
